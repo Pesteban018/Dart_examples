@@ -86,3 +86,19 @@ void main() {
     print(fruta);
   }
 }
+
+// Map
+void main() {
+  Map<String, int> edades = {
+    'Carlos': 30,
+    'Maria': 25,
+    'Juan': 28,
+  };
+
+  edades['Ana'] = 22;
+
+  print('Edades:');
+  edades.forEach((nombre, edad) {
+    print('$nombre tiene $edad años');
+  });
+}
