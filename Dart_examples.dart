@@ -73,3 +73,16 @@ void main() {
   Persona persona = Persona('Carlos', 30);
   persona.saludar();
 }
+
+// List
+void main() {
+  List<String> frutas = ['Manzana', 'Banana', 'Naranja'];
+  
+  frutas.add('Uva');
+  frutas.remove('Banana');
+
+  print('Frutas:');
+  for (String fruta in frutas) {
+    print(fruta);
+  }
+}
