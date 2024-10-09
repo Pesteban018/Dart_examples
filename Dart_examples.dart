@@ -4,6 +4,7 @@ void main() {
     print('hello ${i + 1}');
   }
 }
+
 // print info about me
 void main() {
   String nombre = 'Esteban';
@@ -15,4 +16,14 @@ void main() {
   print('Edad: $edad');
   print('Matricula: $matricula ');
   print('Es estudiante: $esEstudiante');
+}
+
+// print the square of a number
+int cuadrado(int num) {
+  return num * num;
+}
+
+void main() {
+  int resultado = cuadrado(4);
+  print('El cuadrado de 4 es: $resultado');
 }
