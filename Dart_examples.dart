@@ -40,3 +40,17 @@ void main() {
   }
 }
 
+// Cycles (For and While)
+void main() {
+  // Ciclo for
+  for (int i = 1; i <= 5; i++) {
+    print('Contando hacia arriba: $i');
+  }
+
+  // Ciclo while
+  int contador = 5;
+  while (contador > 0) {
+    print('Contando hacia abajo: $contador');
+    contador--;
+  }
+}
