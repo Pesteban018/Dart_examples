@@ -5,7 +5,8 @@ void main() {
   }
 }
 
-// print info about me
+// 
+Variables and Data Types
 void main() {
   String nombre = 'Esteban';
   int edad = 19;
@@ -18,7 +19,7 @@ void main() {
   print('Es estudiante: $esEstudiante');
 }
 
-// print the square of a number
+// Funtion
 int cuadrado(int num) {
   return num * num;
 }
@@ -27,3 +28,15 @@ void main() {
   int resultado = cuadrado(4);
   print('El cuadrado de 4 es: $resultado');
 }
+
+// Conditionals
+void main() {
+  int numero = 7;
+
+  if (numero % 2 == 0) {
+    print('$numero es par');
+  } else {
+    print('$numero es impar');
+  }
+}
+
